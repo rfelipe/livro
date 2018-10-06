@@ -1,0 +1,39 @@
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="3"
+    android:rowCount="3" >
+
+
+    <TextView
+        android:id="@+id/idnome"
+        android:layout_width="0dip"
+        android:layout_gravity="fill_horizontal"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:text="nome"
+        android:layout_row="0"
+        android:layout_column="0" />
+
+    <TextView
+        android:id="@+id/idpessoa"
+        android:layout_width="165dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:text="conta"
+        android:layout_row="0"
+        android:layout_column="1" />
+
+    <TextView
+        android:id="@+id/idvalor"
+        android:layout_width="84dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:text="valor"
+        android:layout_row="0"
+        android:layout_column="2" />
+
+</GridLayout>
